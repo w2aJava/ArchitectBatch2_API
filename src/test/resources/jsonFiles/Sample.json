@@ -1,0 +1,31 @@
+[
+{
+	"firstname": "Rahul",
+	"lastName": "Jha",
+	"profession": "Java Trainer",
+	"address": {
+		"houseNo": "S-128",
+		"street": "street-10",
+		"state": "Delhi",
+		"pincode": 110092
+	},
+	"phoneNumbers": [
+		1223423,
+		123112323123
+	]
+},
+{
+	"firstname": "Raman",
+	"lastName": "Arora",
+	"profession": "Director",
+	"address": {
+		"houseNo": "D-128",
+		"street": "street-5",
+		"state": "New Delhi",
+		"pincode": 110091
+	},
+	"phoneNumbers": [
+		213123123,
+		123123123
+	]
+}]
