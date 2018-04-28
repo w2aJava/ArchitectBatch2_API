@@ -1,0 +1,10 @@
+D:\JavaDemo\architect.batch2.api\src\main\java\architect\batch2\api\APIClasses\CreateUserAPI.java
+D:\JavaDemo\architect.batch2.api\src\main\java\architect\batch2\api\setup\RestAssuredSetUp.java
+D:\JavaDemo\architect.batch2.api\src\main\java\architect\batch2\api\TestUtils\ExcelReader.java
+D:\JavaDemo\architect.batch2.api\src\main\java\architect\batch2\api\TestUtils\CustomeListerners.java
+D:\JavaDemo\architect.batch2.api\src\main\java\architect\batch2\api\APIClasses\GetUserAPI.java
+D:\JavaDemo\architect.batch2.api\src\main\java\architect\batch2\api\setup\TestSetUp.java
+D:\JavaDemo\architect.batch2.api\src\main\java\architect\batch2\api\TestUtils\DataProviderClass.java
+D:\JavaDemo\architect.batch2.api\src\main\java\architect\batch2\api\TestUtils\ExtentManager.java
+D:\JavaDemo\architect.batch2.api\src\main\java\architect\batch2\api\APIClasses\DeleteUserAPI.java
+D:\JavaDemo\architect.batch2.api\src\main\java\architect\batch2\api\APIClasses\UpdateUserAPI.java

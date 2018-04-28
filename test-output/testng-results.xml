@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2147" started-at="2018-04-28T18:10:59Z" finished-at="2018-04-28T18:11:01Z">
+    <groups>
+    </groups>
+    <test name="API Test" duration-ms="2147" started-at="2018-04-28T18:10:59Z" finished-at="2018-04-28T18:11:01Z">
+      <class name="architect.batch2.api.testCases.VerifyGetUserAPI">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:architect.batch2.api.testCases.VerifyGetUserAPI@1ea9f6af]" name="setUp" is-config="true" duration-ms="164" started-at="2018-04-28T23:40:58Z" finished-at="2018-04-28T23:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="configure()[pri:0, instance:architect.batch2.api.testCases.VerifyGetUserAPI@1ea9f6af]" name="configure" is-config="true" duration-ms="471" started-at="2018-04-28T23:40:58Z" depends-on-methods="architect.batch2.api.setup.TestSetUp.setUp" finished-at="2018-04-28T23:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:architect.batch2.api.testCases.VerifyGetUserAPI@1ea9f6af]" name="beforeClass" is-config="true" duration-ms="6" started-at="2018-04-28T23:40:59Z" finished-at="2018-04-28T23:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifyCreateUserAPI(java.util.Hashtable)[pri:0, instance:architect.batch2.api.testCases.VerifyGetUserAPI@1ea9f6af]" name="verifyCreateUserAPI" duration-ms="1860" started-at="2018-04-28T23:40:59Z" data-provider="dp" finished-at="2018-04-28T23:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{inputBody={
+    "name": "Rahul",
+    "job": "trainer"
+}, endPoint=/users, inputbodyData=name:Rahul,job:java Trainer}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUserAPI -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:architect.batch2.api.testCases.VerifyGetUserAPI@1ea9f6af]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-28T23:40:59Z" finished-at="2018-04-28T23:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void architect.batch2.api.testCases.VerifyGetUserAPI.verifyCreateUserAPI(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:architect.batch2.api.testCases.VerifyGetUserAPI@1ea9f6af]" name="afterMethod" is-config="true" duration-ms="193" started-at="2018-04-28T23:41:01Z" finished-at="2018-04-28T23:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:architect.batch2.api.testCases.VerifyGetUserAPI@1ea9f6af]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-28T23:41:01Z" finished-at="2018-04-28T23:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- architect.batch2.api.testCases.VerifyGetUserAPI -->
+    </test> <!-- API Test -->
+  </suite> <!-- Suite -->
+</testng-results>

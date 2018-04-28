@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="10">
+
+	<listeners>
+		<listener class-name="architect.batch2.api.TestUtils.CustomeListerners"></listener>
+	</listeners>
+	<test name="API Test">
+		<classes>
+		<class name="architect.batch2.api.testCases.VerifyGetUserAPI"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

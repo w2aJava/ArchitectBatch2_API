@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="architect.batch2.api.testCases.VerifyGetUserAPI">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="verifyGetUserAPI"/>
+          <include name="beforeClass"/>
+          <include name="configure"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- architect.batch2.api.testCases.VerifyGetUserAPI -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

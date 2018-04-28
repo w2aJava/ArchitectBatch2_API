@@ -1,0 +1,10 @@
+architect\batch2\api\APIClasses\GetUserAPI.class
+architect\batch2\api\TestUtils\DataProviderClass.class
+architect\batch2\api\TestUtils\CustomeListerners.class
+architect\batch2\api\APIClasses\DeleteUserAPI.class
+architect\batch2\api\APIClasses\CreateUserAPI.class
+architect\batch2\api\APIClasses\UpdateUserAPI.class
+architect\batch2\api\setup\RestAssuredSetUp.class
+architect\batch2\api\setup\TestSetUp.class
+architect\batch2\api\TestUtils\ExcelReader.class
+architect\batch2\api\TestUtils\ExtentManager.class
