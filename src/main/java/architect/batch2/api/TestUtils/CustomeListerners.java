@@ -86,7 +86,7 @@ public class CustomeListerners extends TestSetUp implements ITestListener, ISuit
 		String logText="<b>"+"Test Case:- "+ methodName+ " Passed"+"</b>";		
 		Markup m=MarkupHelper.createLabel(logText, ExtentColor.GREEN);
 		testLog.get().pass(m);
-		//extent.flush();
+		
 	}
 	}
 
