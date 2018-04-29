@@ -49,25 +49,7 @@ public class CustomeListerners extends TestSetUp implements ITestListener, ISuit
 
 	public void onTestFailure(ITestResult arg0) {
 		
-		/*try {
-			TestUtils.captureScreenshot();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		
-		String excepionMessage=Arrays.toString(arg0.getThrowable().getStackTrace());
-		testCaseLogger.get().fail("<details>" + "<summary>" + "<b>" + "<font color=" + "red>" + "Exception Occured:Click to see"
-				+ "</font>" + "</b >" + "</summary>" +excepionMessage.replaceAll(",", "<br>")+"</details>"+" \n");
-		
-		try {
-
-			testCaseLogger.get().fail("<b>" + "<font color=" + "red>" + "ScreenShot of failure" + "</font>" + "</b>",
-					MediaEntityBuilder.createScreenCaptureFromPath(TestUtils.screenshotPath + TestUtils.screenshotName)
-							.build());
-		} catch (IOException e) {
-
-		}*/
 		
 		String failureLogg="This Test case got Failed";
 		Markup m = MarkupHelper.createLabel(failureLogg, ExtentColor.RED);
